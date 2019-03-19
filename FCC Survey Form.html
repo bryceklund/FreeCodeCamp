@@ -1,0 +1,53 @@
+<html>
+
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+
+  <style>
+
+    main {
+      font-family: "Lato", regular;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 1em;
+    }
+  </style>
+
+  <main>
+    <h1 id="title">A Test Survey Page</h1>
+    <p id="description">Here, you can take my Fun Survey</p>
+
+
+    <form id="survey-form">
+
+      <label id="name-label">Name:  <input id="name" type="text" placeholder="Name" required></label>
+      <br>
+      <label id="email-label">Email: <input id="email" type="email" placeholder="Email" required></label>
+      <br>
+      <label id="number-label">Number: <input id="number" type="number" placeholder="Number" min="0" max="10"></label>
+      <br>
+      <select id="dropdown">
+        <option value="option 1">Option 1</option>
+        <option value="option 2">Option 2</option>
+        <option value="option 3">Option 3</option>
+      </select>
+      <br>
+      <label><input type="radio" name="thisthat" value="This">This</label>
+      <label><input type="radio" name="thisthat" value="That">That</label>
+      <br>
+      <label><input type="radio" name="thesethose" value="Those">Those</label>
+      <label><input type="radio" name="thesethose" value="These">These</label>
+      <br>
+      <label><input type="checkbox" value="1">1</label>
+      <label><input type="checkbox" value="2">2</label>
+      <label><input type="checkbox" value="3">3</label>
+      <br>
+      <textarea></textarea>
+      <br>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </main>
+</html>
